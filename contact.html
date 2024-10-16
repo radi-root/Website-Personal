@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Radi Hartono</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #222;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+            letter-spacing: 1px;
+            animation: fadeIn 1s ease; /* Animasi fadeIn untuk header */
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(-20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        nav {
+            background-color: #444;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+            transition: color 0.3s;
+            animation: fadeIn 1s ease; /* Animasi fadeIn untuk navigasi */
+        }
+        nav a:hover {
+            color: #ffcc00; /* Warna saat hover */
+        }
+        section {
+            max-width: 600px;
+            margin: 40px auto;
+            padding: 30px;
+            background-color: #fff;
+            border-radius: 12px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        section h2 {
+            margin-top: 0;
+            font-size: 2em;
+            color: #007bff;
+            animation: fadeIn 1s ease; /* Animasi fadeIn untuk judul di section */
+        }
+        section p {
+            margin: 15px 0;
+            animation: fadeIn 1s ease; /* Animasi fadeIn untuk paragraf */
+        }
+        .contact-link {
+            display: inline-block;
+            margin: 20px 10px;
+            transition: transform 0.3s;
+        }
+        .contact-link img {
+            width: 60px;
+            height: 60px;
+            border-radius: 10%;
+        }
+        .contact-link:hover {
+            transform: scale(1.1);
+        }
+        footer {
+            text-align: center;
+            padding: 15px;
+            background-color: #333;
+            color: white;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+            margin-top: 20px;
+            animation: fadeIn 1s ease; /* Animasi fadeIn untuk footer */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Contact Me</h1>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a> |
+        <a href="radi.pdf" download>Download CV</a> |
+        <a href="contact.html">Contact</a> |
+        <a href="about.html">About me</a>
+    </nav>
+
+    <section>
+        <h2>Get in Touch</h2>
+        <p>
+            Klik ikon di bawah untuk menghubungi saya melalui Instagram atau WhatsApp.
+        </p>
+        <a href="https://www.instagram.com/dor.kuota/profilecard/?igsh=MXZ4c3J0OG1xZmRiYg==" class="contact-link">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram Icon">
+        </a>
+        <a href="https://wa.me/6282277916584" class="contact-link">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp Icon">
+        </a>
+    </section>
+
+    <footer>
+        <p>Copyright &copy; 2024 Radi Hartono</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me - Radi Hartono</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+            animation: fadeIn 1s ease; /* Animasi fadeIn untuk judul */
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(-20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        nav {
+            background-color: #444;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+            transition: color 0.3s;
+            animation: fadeIn 1s ease; /* Animasi fadeIn untuk navigasi */
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        section {
+            max-width: 900px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        section img {
+            float: left;
+            margin-right: 20px;
+            border-radius: 50%;
+        }
+        section h2 {
+            font-size: 2em;
+            margin-top: 0;
+            animation: fadeIn 1s ease; /* Animasi fadeIn untuk subjudul */
+        }
+        section p {
+            text-align: justify;
+            animation: fadeIn 1s ease; /* Animasi fadeIn untuk paragraf */
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #333;
+            color: white;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            animation: fadeIn 1s ease; /* Animasi fadeIn untuk footer */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>About Me</h1>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a> |
+        <a href="radi.pdf" download>Download CV</a> |
+        <a href="contact.html">Contact</a> |
+        <a href="about.html">About me</a>
+    </nav>
+
+    <section>
+        <img src="image/foto-profile.jpg" alt="Profile Picture" width="150" height="150">
+        <h2>Radi Hartono</h2>
+        <p>
+            Hi, nama saya Radi Hartono, seorang mahasiswa jurusan Informatika di Universitas Dehasen Bengkulu. Saya tertarik pada pengembangan web dan saat ini sedang mempelajari HTML, CSS, dan JavaScript.
+        </p>
+        <p>
+            Selain itu, saya juga tertarik dengan dunia keamanan siber dan sering bereksperimen dengan teknik hacking etis untuk meningkatkan keterampilan pemrograman saya. Saya suka berbagi pengetahuan dan terlibat aktif di komunitas Linux lokal.
+        </p>
+        <p>
+            Saya percaya bahwa dengan kerja keras dan pembelajaran terus-menerus, saya akan dapat menguasai berbagai teknologi di bidang pengembangan web dan keamanan siber. Jangan ragu untuk menghubungi saya jika ingin berkolaborasi dalam proyek-proyek menarik!
+        </p>
+    </section>
+
+    <footer>
+        <p>Copyright &copy; 2024 Radi Hartono</p>
+    </footer>
+</body>
+</html>
